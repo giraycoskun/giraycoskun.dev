@@ -1,3 +1,58 @@
-site_name: My Docs
+site_name: Giray Coskun
+site_url: https://giraycoskun.dev/
+site_author: Giray Coskun
+site_description: I am a software engineer and this is my personal website
+
+# Repository
+#repo_name: giraycoskun/giraycoskun.dev
+#repo_url: https://github.com/giraycoskun/giraycoskun.dev
+
 theme:
-  material
+  language: en 
+  name: material
+  icon:
+    logo: material/library
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+    - search
+    - macros
+
+markdown_extensions:
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: 'docs/' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+
+nav:
+  - Home: index.md
+  - Giray Coskun:
+    - Intro: home/index.md
+    - Education: home/education.md
+    - Projects: home/projects.md
+    - Skills: home/skills.md
+    - CV (pdf): home/cv.md
+  - A Developer's Notebook: 
+    - Intro: developers-notebook/index.md
+    - Starting a Python Project: developers-notebook/python-project.md
+    - Dependency Management in Python: developers-notebook/dependency-management-python.md
+  - Awesome Bookmarks:
+    - Intro: awesome-bookmarks/index.md
+    - Python: awesome-bookmarks/python.md
