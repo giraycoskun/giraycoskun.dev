@@ -45,14 +45,14 @@ jobs:
       #----------------------------------------------
       # install your root project, if required
       #----------------------------------------------
-      - name: Install library
-        run: poetry install --no-interaction
+      #- name: Install library
+      #  run: poetry install --no-interaction
       #----------------------------------------------
       #              run test suite
       #pytest tests/
       #coverage report
       #----------------------------------------------
-      - name: Run tests
+      - name: Build site
         run: |
           source .venv/bin/activate
           mkdocs build
