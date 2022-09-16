@@ -17,3 +17,5 @@ Double Major in **Economics** (2018-2023)
 - Information Technology
 
 ## Coursework
+
+![Coursework](../assets/images/courseworkk.drawio.png)
