@@ -13,9 +13,9 @@ theme:
   icon:
     logo: material/library
   features:
-    - navigation.tabs
     - navigation.indexes
     - navigation.top
+    - navigation.tabs
 
   palette:
     # Palette toggle for light mode
@@ -40,9 +40,14 @@ markdown_extensions:
       relative_path: 'docs/' # default ''
       absolute: false # default: false
       tags: 'a script img link object embed'
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
 
 nav:
-  - Home: index.md
+  - Intro: index.md
   - Giray Coskun:
     - Intro: home/index.md
     - Education: home/education.md
