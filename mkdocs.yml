@@ -51,9 +51,9 @@ nav:
   - Giray Coskun:
     - Intro: home/index.md
     - Education: home/education.md
-    - Projects: home/projects.md
+    - Publications & Projects: home/projects.md
     - Skills: home/skills.md
-    - CV (pdf): home/cv.md
+    - CV: home/cv.md
   - A Developer's Notebook: 
     - Intro: developers-notebook/index.md
     - Starting a Python Project: developers-notebook/python-project.md
