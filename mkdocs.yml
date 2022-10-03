@@ -45,6 +45,9 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Intro: index.md
@@ -52,6 +55,7 @@ nav:
     - Intro: home/index.md
     - Education: home/education.md
     - Publications & Projects: home/projects.md
+    - Experience: home/experience.md
     - Skills: home/skills.md
     - CV: home/cv.md
   - A Developer's Notebook: 

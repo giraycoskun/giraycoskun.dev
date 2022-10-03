@@ -18,5 +18,14 @@
     - 11th International Workshop on Combinatorial Testing
     -  **Authors:** Giray Coskun, Cankut Coskun, Hanefi Mercan, Cemal Yilmaz
     - **Paper:** <https://ieeexplore.ieee.org/abstract/document/9787934>
+    - **Conference:** <https://icst2022.vrain.upv.es/details/iwct-2022-papers/3/Using-Unified-Combinatorial-Interaction-Testing-for-MC-DC-Coverage>
 
 ## Projects
+
+### Unsupervised SSVEP Signal Classification
+
+### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+
+### A Combinatorial Interaction Testing-Based Daily Build Process
+
+### KANADE RUSSELL’S Identity Finder
