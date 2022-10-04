@@ -20,12 +20,32 @@
     - **Paper:** <https://ieeexplore.ieee.org/abstract/document/9787934>
     - **Conference:** <https://icst2022.vrain.upv.es/details/iwct-2022-papers/3/Using-Unified-Combinatorial-Interaction-Testing-for-MC-DC-Coverage>
 
+### **Unsupervised Adaptation of DNN for Brain-Computer Interface Spellers**
+- **SIU**
+    - 2022 30th Signal Processing and Communications Applications Conference (SIU)
+    -  **Authors:** Osman Berke Güney, Deniz Küçükahmetler, Pelinsu Çiftçioğlu, Giray Coşkun, Hüseyin Özkan
+    - **Paper:** <https://ieeexplore.ieee.org/abstract/document/9864700>
+
 ## Projects
 
-### Unsupervised SSVEP Signal Classification
+### Research Projects
 
-### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+#### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
 
-### A Combinatorial Interaction Testing-Based Daily Build Process
+#### A Combinatorial Interaction Testing-Based Daily Build Process
 
-### KANADE RUSSELL’S Identity Finder
+#### Unsupervised SSVEP Signal Classification
+
+#### KANADE RUSSELL’S Identity Finder
+
+### Side Projects
+
+#### University Anouncement System (MySU Anouncement Delivery)
+
+- **Github:** <https://github.com/giraycoskun/University-Anouncement-System>
+
+### School Projects
+
+#### Encryption in Assembly
+
+#### 
