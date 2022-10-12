@@ -47,5 +47,9 @@
 ### School Projects
 
 #### Encryption in Assembly
+- **Github:** <https://github.com/giraycoskun/encrption-in-assembly>
+- **Keywords:** assembly, cryptographic algorithm
 
-#### 
+#### Client-Server-Drive-App
+- **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
+- **Keywords:** socket programming, network, client-server architecture, C#
