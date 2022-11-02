@@ -5,8 +5,6 @@
 <img src="../assets/icons/diver.png" width="180" /> 
 <img src="../assets/icons/galata-tower.png" width="180" />
 
-<img src="../assets/images/sabanci.jpg"  />
-
 !!! note ""
 
     Hi, 
@@ -16,3 +14,6 @@
 [Portfolio](/home){ .md-button .md-button--primary } 
 [Blog](/developers-notebook){ .md-button .md-button--primary } 
 [Notes](/awesome-bookmarks){ .md-button .md-button--primary }
+
+<img src="../assets/images/sabanci.jpg"  />
+
