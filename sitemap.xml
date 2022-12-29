@@ -21,7 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://giraycoskun.dev/developers-notebook/Answer%20Set%20Programming/</loc>
+         <lastmod>2022-12-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://giraycoskun.dev/developers-notebook/dependency-management-python/</loc>
+         <lastmod>2022-12-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://giraycoskun.dev/developers-notebook/modern-cpp-development/</loc>
          <lastmod>2022-12-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
