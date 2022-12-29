@@ -1,14 +1,8 @@
 # Personal-Website
 
-My Personal Website to display portfolio and CV for now :)
+<giraycoskun.dev>
 
-Maybe I hope to start blogging too :)
+For Github Landing Page and details on projects: <giraycoskun.github.io>
 
-```
-python3 -m http.server
-```
 
-## Credits
-- [Bootstrap](https://getbootstrap.com/)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
-- [Highlight.js](https://highlightjs.org/)
+

@@ -12,4 +12,8 @@
 
 **Last Updated at**:13.09.2022
 
+## Projects with Papers
+
+- https://github.com/meelgroup/unigen
+
 ### Others
