@@ -2,72 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://giraycoskun.dev/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/awesome-bookmarks/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/awesome-bookmarks/python/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/developers-notebook/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/developers-notebook/Answer%20Set%20Programming/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/developers-notebook/dependency-management-python/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/developers-notebook/modern-cpp-development/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/developers-notebook/python-project/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/cv/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/education/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/experience/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/projects/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://giraycoskun.dev/home/skills/</loc>
-         <lastmod>2022-12-29</lastmod>
+         <lastmod>2023-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://giraycoskun.dev/projects/</loc>
+         <lastmod>2023-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://giraycoskun.dev/projects/course-projects/</loc>
+         <lastmod>2023-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://giraycoskun.dev/projects/research-projects/</loc>
+         <lastmod>2023-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://giraycoskun.dev/projects/side-projects/</loc>
+         <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
