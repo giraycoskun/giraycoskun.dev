@@ -19,6 +19,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - content.code.annotate
+    - toc.follow
 
   palette:
     
@@ -33,7 +34,15 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-    
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/giraycoskun
+    - icon: fontawesome/brands/github 
+      link: https://github.com/giraycoskun
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/giraycoskun/
+  
 
 plugins:
     - search
@@ -62,17 +71,21 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Giray Coskun:
-    - Intro: home/index.md
+    - home/index.md
     - Education: home/education.md
     - Publications & Projects: home/projects.md
     - Experience: home/experience.md
     - Skills: home/skills.md
     - CV: home/cv.md
-  - A Developer's Notebook: 
-    - Intro: developers-notebook/index.md
+  - My Projects: 
+    - projects/index.md
+    - Research Projects: projects/research-projects.md
+    - Coursework Projects: projects/course-projects.md
+    - Side Projects: projects/side-projects.md
+  - Developer's Notebook:
+    - developers-notebook/index.md 
     - Starting a Python Project: developers-notebook/python-project.md
     - Dependency Management in Python: developers-notebook/dependency-management-python.md
     - Modern C++ Development: developers-notebook/modern-cpp-development.md
-  - Awesome Bookmarks:
-    - Intro: awesome-bookmarks/index.md
+  - My Bookmarks:
     - Python: awesome-bookmarks/python.md
