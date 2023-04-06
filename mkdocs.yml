@@ -4,8 +4,8 @@ site_author: Giray Coskun
 site_description: I am a software engineer and this is my personal website
 
 # Repository
-#repo_name: giraycoskun/giraycoskun.dev
-#repo_url: https://github.com/giraycoskun/giraycoskun.dev
+repo_name: giraycoskun/giraycoskun.dev
+repo_url: https://github.com/giraycoskun/giraycoskun.dev
 
 theme:
   language: en 
