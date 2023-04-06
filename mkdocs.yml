@@ -84,8 +84,6 @@ nav:
     - Side Projects: projects/side-projects.md
   - Developer's Notebook:
     - developers-notebook/index.md 
-    - Starting a Python Project: developers-notebook/python-project.md
-    - Dependency Management in Python: developers-notebook/dependency-management-python.md
+    - developers-notebook/Starting-Python-Project.md
+    - developers-notebook/my-python-bookmarks.md
     - Modern C++ Development: developers-notebook/modern-cpp-development.md
-  - My Bookmarks:
-    - Python: awesome-bookmarks/python.md
