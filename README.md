@@ -1,8 +1,18 @@
 # Personal-Website
 
-<giraycoskun.dev>
+<https://www.giraycoskun.dev/>
 
-For Github Landing Page and details on projects: <giraycoskun.github.io>
+For Github Projects <https://giraycoskun.github.io/>
 
+## How to run docs
 
+```bash
+poetry install .
+poetry shell
+```
 
+```bash
+mkdocs serve
+```
+
+Created with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
