@@ -359,7 +359,21 @@
                 </p>
             </div>
             <div class="mdx-hero__content main">
+                <div class="admonition note">
+                    <a href="https://giraycoskun.github.io/"><b>My Github Projects:</b>
+                        https://giraycoskun.github.io/</a>
+                </div>
+            </div>
+            <div class="mdx-hero__content main">
                 <img src="../assets/images/sabanci.jpg" width="720" />
+            </div>
+            <div class="mdx-hero__content main">
+                <div class="admonition note">
+                    <a
+                        href="https://giraycoskun.notion.site/51797f0e94b94da7998bb659ecb5cae9?v=f5fb03f2d6054ca38148644f4a35c6b7"><b>My
+                            Library</b>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -381,7 +395,7 @@
         setTimeout(function () { // you surely want a delay before the next message appears
             console.log(_h1);
             _h1.innerHTML = messages[rank];
-            var speed = 2*messages[rank].length/15; // adjust the speed (3.5 is the original speed, 20 is the original string length
+            var speed = 2 * messages[rank].length / 15; // adjust the speed (3.5 is the original speed, 20 is the original string length
             _h1.style.webkitAnimation = 'typing ' + speed + 's steps(40, end), blink-caret .75s step-end infinite'; //  switch to the original set of animation      
             (rank === messages.length - 1) ? rank = 0 : rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
         }, 1500);
@@ -700,6 +714,8 @@
         
           
         
+          
+        
       
       
         
@@ -772,6 +788,20 @@
     <li class="md-nav__item">
       <a href="developers-notebook/self-hosted/" class="md-nav__link">
         Self-Hosted Works
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="developers-notebook/async-python/" class="md-nav__link">
+        Async Python
       </a>
     </li>
   
