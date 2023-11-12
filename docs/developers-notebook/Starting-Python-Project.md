@@ -4,10 +4,6 @@
 
     This a note-to-myself  kind of article. **Not an expert’s opinion.**
 
-!!! warning
-
-    Text for this article created with the help of NotionAI or ChatGPT and edited by me.
-
 Starting a Python project can be challenging, but this blog will guide you through essential steps, including dependency management, documentation, logging, and Dockerizing your application. This guide provides a practical roadmap to getting started with Python projects.
 
 ## 1. Dependency Management
