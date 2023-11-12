@@ -16,4 +16,6 @@ mkdocs serve
 mkdocs build
 ```
 
+CV Version: August 23
+
 Created with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)

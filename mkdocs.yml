@@ -73,10 +73,12 @@ nav:
   - Giray Coskun:
     - home/index.md
     - Education: home/education.md
-    - Publications & Projects: home/projects.md
+    - Publications: home/publications.md 
+    - Projects: home/projects.md
     - Experience: home/experience.md
     - Skills: home/skills.md
     - CV: home/cv.md
+  - home/info.md
   - My Projects: 
     - projects/index.md
     - Research Projects: projects/research-projects.md

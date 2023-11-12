@@ -14,4 +14,4 @@
 
 ## Coursework
 
-![Coursework](../assets/images/courseworkk.drawio.png)
+![Coursework](coursework.drawio)
