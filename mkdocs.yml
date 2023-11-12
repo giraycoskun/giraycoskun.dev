@@ -78,7 +78,6 @@ nav:
     - Experience: home/experience.md
     - Skills: home/skills.md
     - CV: home/cv.md
-  - home/info.md
   - My Projects: 
     - projects/index.md
     - Research Projects: projects/research-projects.md
