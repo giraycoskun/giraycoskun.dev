@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://giraycoskun.dev/developers-notebook/starting-python-project/</loc>
+         <lastmod>2023-11-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://giraycoskun.dev/home/</loc>
          <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
