@@ -1,5 +1,9 @@
 # Starting a Python Project
 
+!!! warning
+    This is a draft.
+
+
 !!! note
 
     This a note-to-myself  kind of article. **Not an expert’s opinion.**

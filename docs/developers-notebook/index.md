@@ -11,10 +11,11 @@ These are thing that I want take notes about and keep them here for accessibilit
 
 Views are my own and can be wrong. As I am not suggesting that I am an expert on these topics.
 
-All of them can be found on the left-hand side. Below are finished ones.
+!!! info
+    All of them (drafts included) can be found on the left-hand side. Below are finished ones.
 
 ## Table of Contents
 
-1. [Starting a Python Project](starting-python-project)
+1. [My Python Development Environment](my-python-development-environment)
 
 2. [Host Your Projects via Cloudflared Tunnel](host-your-projects)

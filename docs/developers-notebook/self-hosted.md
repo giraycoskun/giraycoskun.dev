@@ -1,5 +1,8 @@
 # Self-Hosted Works
 
+!!! warning
+    This is a draft.
+
 ## Self-Host SSH Server
 
 - OpenSSH: <https://www.openssh.com/>

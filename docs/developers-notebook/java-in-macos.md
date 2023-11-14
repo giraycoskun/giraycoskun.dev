@@ -1,5 +1,9 @@
 # Java Set-up
  
+!!! warning
+    This is a draft.
+
+
 How to set up Java in macOS with multiple Java versions
 
 Created: 11.10.2023
