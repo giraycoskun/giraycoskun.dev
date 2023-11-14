@@ -88,7 +88,6 @@ nav:
   - Developer's Notebook:
     - developers-notebook/index.md
     - developers-notebook/my-python-development-environment.md
-    - developers-notebook/starting-python-project.md
     - developers-notebook/host-your-projects.md
     - developers-notebook/my-python-bookmarks.md
     - developers-notebook/modern-cpp-development.md
