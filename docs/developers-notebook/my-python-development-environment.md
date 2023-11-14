@@ -103,3 +103,5 @@ poetry new <project-name>
 cd <project-directory>
 poetry init
 ```
+
+And the rest is in [Starting a Python Project](starting-python-project)

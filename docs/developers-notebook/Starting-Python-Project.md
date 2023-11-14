@@ -10,29 +10,11 @@
 
 Starting a Python project can be challenging, but this blog will guide you through essential steps, including dependency management, documentation, logging, and Dockerizing your application. This guide provides a practical roadmap to getting started with Python projects.
 
-## 1. Dependency Management
+## Dependency Management
 
----
-
-### pip
-
-```bash
-python3 -m venv venv
-which python
-python --version
-pip --version
+```zsh title="Check oudated top packages"
+poetry show -T  -o -a  
 ```
-
-```bash
-pip install <pypi-package>
-pip freeze > requirements.txt
-pip freeze | xargs pip uninstall -y
-pip install -r requirements.txt
-```
-
-### Poetry
-
-### PDM
 
 ## 2. Logging
 
