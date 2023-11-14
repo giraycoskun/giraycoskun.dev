@@ -705,6 +705,8 @@
       
         
       
+        
+      
     
     
     
@@ -754,11 +756,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../starting-python-project.md" class="md-nav__link">
+      <a href="../host-your-projects/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    Host Your Projects via Cloudflared Tunnel
   </span>
   
 
@@ -774,11 +776,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../host-your-projects/" class="md-nav__link">
+      <a href="../my-python-development-environment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Host Your Projects via Cloudflared Tunnel
+    My Python Development Environment
   </span>
   
 
@@ -949,6 +951,26 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../starting-python-project.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    None
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1022,32 +1044,36 @@
 
 
 <h1 id="java-set-up">Java Set-up</h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is a draft.</p>
+</div>
 <p>How to set up Java in macOS with multiple Java versions</p>
 <p>Created: 11.10.2023
 Last Updated: 11.10.2023</p>
 <h2 id="install-homebrew">Install <a href="https://brew.sh/">HomeBrew</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
-</code></pre></div>
+<div class="language-zsh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
+</span></code></pre></div>
 <h2 id="install-java-versions">Install Java Versions</h2>
 <ul>
 <li>Install necesarry versions</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>brew<span class="w"> </span>install<span class="w"> </span>openjdk@17
-</code></pre></div>
+<div class="language-zsh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>brew<span class="w"> </span>install<span class="w"> </span>openjdk@17
+</span></code></pre></div>
 <ul>
 <li>Create symlink (this command is also given by HomeBrew)</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo<span class="w"> </span>ln<span class="w"> </span>-sfn<span class="w"> </span>/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk<span class="w"> </span>/Library/Java/JavaVirtualMachines/openjdk-17.jdk
-</code></pre></div>
+<div class="language-zsh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo<span class="w"> </span>ln<span class="w"> </span>-sfn<span class="w"> </span>/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk<span class="w"> </span>/Library/Java/JavaVirtualMachines/openjdk-17.jdk
+</span></code></pre></div>
 <h2 id="update-bashzsh-profile">Update bash/zsh Profile</h2>
 <ul>
 <li>My default java version is 21 but with j17 command it switches to Java version 17.</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># JAVA</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;/opt/homebrew/opt/openjdk@21/bin:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">j17</span><span class="o">=</span><span class="s1">&#39;export PATH=&quot;/opt/homebrew/opt/openjdk@17/bin:$PATH&quot; ; java --version&#39;</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">j21</span><span class="o">=</span><span class="s1">&#39;export PATH=&quot;/opt/homebrew/opt/openjdk@21/bin:$PATH&quot; ; java --version&#39;</span>
-</code></pre></div>
+<div class="language-zsh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># JAVA</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;/opt/homebrew/opt/openjdk@21/bin:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">j17</span><span class="o">=</span><span class="s1">&#39;export PATH=&quot;/opt/homebrew/opt/openjdk@17/bin:$PATH&quot; ; java --version&#39;</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">j21</span><span class="o">=</span><span class="s1">&#39;export PATH=&quot;/opt/homebrew/opt/openjdk@21/bin:$PATH&quot; ; java --version&#39;</span>
+</span></code></pre></div>
 
 
 
@@ -1129,7 +1155,7 @@ Last Updated: 11.10.2023</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "content.code.annotate", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "content.code.annotate", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.81fa17fe.min.js"></script>
