@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://giraycoskun.dev/developers-notebook/host-your-projects/">
       
       
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../my-python-bookmarks/">
       
       
       <link rel="icon" href="../../assets/computer-science.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Host YOur Projects - Giray Coskun</title>
+        <title>Host Your Projects via Cloudflared Tunnel - Giray Coskun</title>
       
     
     
@@ -77,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#host-your-projects" class="md-skip">
+        <a href="#host-your-projects-via-cloudflared-tunnel" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Host YOur Projects
+              Host Your Projects via Cloudflared Tunnel
             
           </span>
         </div>
@@ -265,10 +269,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../" class="md-tabs__link">
           
   
@@ -677,6 +683,8 @@
       
   
   
+    
+  
   
     
     
@@ -697,6 +705,8 @@
       
         
       
+        
+      
     
     
     
@@ -704,12 +714,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           
@@ -731,7 +741,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Developer's Notebook
@@ -746,15 +756,137 @@
   
   
     <li class="md-nav__item">
-      <a href="../Starting-Python-Project/" class="md-nav__link">
+      <a href="../starting-python-project.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Starting a Python Project
+    None
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Host Your Projects via Cloudflared Tunnel
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Host Your Projects via Cloudflared Tunnel
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cloudflare-tunnel" class="md-nav__link">
+    Cloudflare Tunnel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-your-tunnel" class="md-nav__link">
+    Set up your tunnel
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up your tunnel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-cloudflare-account" class="md-nav__link">
+    Create a Cloudflare Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-cloudflared-cli-and-create-tunnel" class="md-nav__link">
+    Install cloudflared CLI and Create Tunnel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-tunnel-in-macos" class="md-nav__link">
+    Configure Tunnel in macOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-tunnel" class="md-nav__link">
+    Run the Tunnel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-step-monitoring-services" class="md-nav__link">
+    Extra Step: Monitoring Services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -790,7 +922,7 @@
         
   
   <span class="md-ellipsis">
-    Modern C++ Development
+    Modern C++ Development Notes
   </span>
   
 
@@ -898,12 +1030,40 @@
     Cloudflare Tunnel
   </a>
   
-    <nav class="md-nav" aria-label="Cloudflare Tunnel">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-your-tunnel" class="md-nav__link">
+    Set up your tunnel
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up your tunnel">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#logs" class="md-nav__link">
-    Logs
+  <a href="#create-a-cloudflare-account" class="md-nav__link">
+    Create a Cloudflare Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-cloudflared-cli-and-create-tunnel" class="md-nav__link">
+    Install cloudflared CLI and Create Tunnel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-tunnel-in-macos" class="md-nav__link">
+    Configure Tunnel in macOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-tunnel" class="md-nav__link">
+    Run the Tunnel
   </a>
   
 </li>
@@ -945,14 +1105,126 @@
   
 
 
-<h1 id="host-your-projects">Host YOur Projects</h1>
+<h1 id="host-your-projects-via-cloudflared-tunnel">Host Your Projects via Cloudflared Tunnel</h1>
+<p>This is a showcase of <strong>hosting</strong> your services from <strong>localhost to internet</strong> via <strong>Cloudflare tunnel</strong> managed locally and the local operating system is <strong>macOS</strong>.</p>
 <p>During this road there a few choices <a href="https://localtonet.com/">localtonet</a> or <a href="https://ngrok.com/">ngrok</a> or <a href="https://serveo.net/">serveo</a>.</p>
 <p>In my humble opinion Cloudflare Tunnel is the best option out there. It is free, easy to setup and you can use custom domains.</p>
 <h2 id="cloudflare-tunnel">Cloudflare Tunnel</h2>
-<h3 id="logs">Logs</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/Users/giraycoskun/Library/Logs/com.cloudflare.cloudflared.out.log
+<p>This is a free feature of Cloudflare introduced by <a href="https://blog.cloudflare.com/tunnel-for-everyone/">https://blog.cloudflare.com/tunnel-for-everyone/</a>. You can find docs by <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/">https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/</a>. Docs were sufficent in my case except for running the tunnel as service. I had to add configure daemon agent of macOS.</p>
+<p><img alt="Cloudflare Tunnel" src="https://developers.cloudflare.com/assets/handshake_hufad68abf6107ffc2ef859ebe1b42b6e2_299675_1768x1102_resize_q75_box-3f75968f.jpg" /></p>
+<h2 id="set-up-your-tunnel">Set up your tunnel</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This chapter is exactly same from Get started to create a locally-managed tunnel of official documentation.
+<a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/">https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/</a></p>
+</div>
+<h3 id="create-a-cloudflare-account">Create a Cloudflare Account</h3>
+<p>I am also using Cloudflare DNS services for my custom domains and I suggest this to easily create custom domain to your local services.</p>
+<h3 id="install-cloudflared-cli-and-create-tunnel">Install cloudflared CLI and Create Tunnel</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>brew<span class="w"> </span>install<span class="w"> </span>cloudflare/cloudflare/cloudflared
 </code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>login
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>create<span class="w"> </span>&lt;tunnel-name&gt;
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use one tunnel to host more than one service from your localhost so this name does not need to be a service specific name</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>create<span class="w"> </span>&lt;tunnel-name&gt;
+</code></pre></div>
+<h3 id="configure-tunnel-in-macos">Configure Tunnel in macOS</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>route<span class="w"> </span>dns<span class="w"> </span>&lt;tunnel-id/tunnel-name&gt;<span class="w"> </span>&lt;host-name&gt;
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ls<span class="w"> </span>/Users/&lt;user-name&gt;/.cloudflared
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>&gt;<span class="w">   </span>&lt;tunnel-id&gt;.json
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span>cert.pem
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span>config.yml
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>tunnel: &lt;tunnel-id&gt;
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>credentials-file: /Users/&lt;user-name&gt;/.cloudflared/&lt;tunnel-id&gt;.json
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>ingress:
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    - hostname: &lt;custom-domain-name&gt;
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>      service: http://localhost:&lt;port&gt;
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    - hostname: &lt;custom-domain-name-2&gt;
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>      service: http://localhost:&lt;port&gt;
+</code></pre></div>
+<h3 id="run-the-tunnel">Run the Tunnel</h3>
+<ul>
+<li>
+<p>Run tunnel manually
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>run<span class="w">  </span>&lt;tunnel-id/tunnel-name&gt;
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>cloudflared<span class="w"> </span>tunnel<span class="w"> </span>--config<span class="w"> </span>/Users/&lt;user-name&gt;/.cloudflared/config.yml<span class="w"> </span>run<span class="w"> </span>&lt;tunnel-id/tunnel-name&gt;
+</code></pre></div></p>
+</li>
+<li>
+<p>Run tunnel as a user (not system) service in macOS
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cloudflared<span class="w"> </span>service<span class="w"> </span>install
+</code></pre></div></p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Extra steps are required to run service according to config file we created. Even though documentation explicitly states it uses automatically the user config file. However in mycase the installed service only created quick try tunnel.</p>
+</div>
+<ol>
+<li>
+<p>Edit plist config
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>cat<span class="w"> </span>com.cloudflare.cloudflared.plist
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="err">&lt;</span>&gt;<span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="cp">&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nt">&lt;plist</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">    </span><span class="nt">&lt;dict&gt;</span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>Label<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">        </span><span class="nt">&lt;string&gt;</span>com.cloudflare.cloudflared<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>ProgramArguments<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="w">        </span><span class="nt">&lt;array&gt;</span>
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="w">            </span><span class="nt">&lt;string&gt;</span>/usr/local/bin/cloudflared<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a><span class="w">            </span><span class="nt">&lt;string&gt;</span>tunnel<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a><span class="w">            </span><span class="nt">&lt;string&gt;</span>run<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a><span class="w">        </span><span class="nt">&lt;/array&gt;</span>
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>RunAtLoad<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a><span class="w">        </span><span class="nt">&lt;true/&gt;</span>
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>StandardOutPath<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a><span class="w">        </span><span class="nt">&lt;string&gt;</span>/Users/<span class="nt">&lt;user-name&gt;</span>/Library/Logs/com.cloudflare.cloudflared.out.log<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>StandardErrorPath<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a><span class="w">        </span><span class="nt">&lt;string&gt;</span>/Users/<span class="nt">&lt;user-name&gt;</span>/Library/Logs/com.cloudflare.cloudflared.err.log<span class="nt">&lt;/string&gt;</span>
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>KeepAlive<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a><span class="w">        </span><span class="nt">&lt;dict&gt;</span>
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a><span class="w">            </span><span class="nt">&lt;key&gt;</span>SuccessfulExit<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a><span class="w">            </span><span class="nt">&lt;false/&gt;</span>
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a><span class="w">        </span><span class="nt">&lt;/dict&gt;</span>
+<a id="__codelineno-10-24" name="__codelineno-10-24" href="#__codelineno-10-24"></a><span class="w">        </span><span class="nt">&lt;key&gt;</span>ThrottleInterval<span class="nt">&lt;/key&gt;</span>
+<a id="__codelineno-10-25" name="__codelineno-10-25" href="#__codelineno-10-25"></a><span class="w">        </span><span class="nt">&lt;integer&gt;</span>5<span class="nt">&lt;/integer&gt;</span>
+<a id="__codelineno-10-26" name="__codelineno-10-26" href="#__codelineno-10-26"></a><span class="w">    </span><span class="nt">&lt;/dict&gt;</span>
+<a id="__codelineno-10-27" name="__codelineno-10-27" href="#__codelineno-10-27"></a><span class="nt">&lt;/plist&gt;</span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Check <strong>launchctl</strong> service &amp;&amp; Boot the com.cloudflare.cloudflared
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>launchctl<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;com.cloudflare*&#39;</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>launchctl<span class="w"> </span>bootout<span class="w"> </span>com.cloudflare.cloudflared
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>launchctl<span class="w"> </span>bootstrap<span class="w"> </span>com.cloudflare.cloudflared
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>sudo<span class="w"> </span>launchctl<span class="w"> </span>start<span class="w"> </span>com.cloudflare.cloudflared
+</code></pre></div></p>
+</li>
+<li>
+<p>Check Output and Error files
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cat<span class="w"> </span>/Library/Logs/com.cloudflare.cloudflared.err.log
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>cat<span class="w"> </span>/Library/Logs/com.cloudflare.cloudflared.out.log
+</code></pre></div></p>
+</li>
+</ol>
+<p>3.2 Manually Start/Stop the service
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>sudo<span class="w"> </span>launchctl<span class="w"> </span>stop<span class="w"> </span>com.cloudflare.cloudflared
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>sudo<span class="w"> </span>launchctl<span class="w"> </span>start<span class="w"> </span>com.cloudflare.cloudflared
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>launchctl<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;com.cloudflare*&#39;</span>
+</code></pre></div></p>
 <h2 id="extra-step-monitoring-services">Extra Step: Monitoring Services</h2>
+<p>I have started using <a href="https://uptimerobot.com/">Uptime Robot</a> to monitor my services as it is free up to 50 monitors and easy to set up.</p>
+<p>Just add the http health url and it is good to go with 5 min. intervals.</p>
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://blog.cloudflare.com/tunnel-for-everyone/">https://blog.cloudflare.com/tunnel-for-everyone/</a></li>
