@@ -13,7 +13,7 @@
 - **Github:** <https://github.com/giraycoskun/transporter>
 - **Docs:** -
 - **Keywords:** Java, Spring Boot
-- A public transport service usiing IStanbul public data
+- A public transport service usiing Istanbul public data
 - Features a spring boot framework
 
 ### tvtime-scrapy-api

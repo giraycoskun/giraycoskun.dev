@@ -10,7 +10,7 @@ Starting a Python project can be challenging, but this blog will guide you throu
 
 ---
 
-### 1.a pip
+### pip
 
 ```bash
 python3 -m venv venv
@@ -26,9 +26,9 @@ pip freeze | xargs pip uninstall -y
 pip install -r requirements.txt
 ```
 
-### 1.b Poetry
+### Poetry
 
-### 1.c PDM
+### PDM
 
 ## 2. Logging
 

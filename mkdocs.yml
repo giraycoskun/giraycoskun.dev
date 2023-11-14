@@ -85,9 +85,10 @@ nav:
     - Side Projects: projects/side-projects.md
   - Developer's Notebook:
     - developers-notebook/index.md 
-    - developers-notebook/Starting-Python-Project.md
+    - developers-notebook/starting-python-project.md
+    - developers-notebook/host-your-projects.md
     - developers-notebook/my-python-bookmarks.md
-    - Modern C++ Development: developers-notebook/modern-cpp-development.md
+    - developers-notebook/modern-cpp-development.md
     - developers-notebook/self-hosted.md
     - developers-notebook/async-python.md
     - developers-notebook/java-in-macos.md
