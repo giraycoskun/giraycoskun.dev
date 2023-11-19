@@ -89,4 +89,4 @@ poetry use <python-version>
 poetry init
 ```
 
-And the rest is in [Starting a Python Project](starting-python-project)
+And the rest is in [Starting a Python Project](starting-python-project.md)

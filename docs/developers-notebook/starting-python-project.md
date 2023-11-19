@@ -3,41 +3,93 @@
 !!! warning
     This is a draft.
 
+---
 
+
+This how I start my projects so note to myself. IT includes topics on dependency management, linting/formatting, logging, documentation, dockerization
+
+## Required Tools
+---
+- [Poetry](https://python-poetry.org/)
+- [Poe the Poet](https://poethepoet.natn.io/index.html#)
+- [pyenv](https://github.com/pyenv/pyenv)
+
+## Initialize Project
+---
 !!! note
+    Install Python version if a specific one required.
 
-    This a note-to-myself  kind of article. **Not an expert’s opinion.**
-
-Starting a Python project can be challenging, but this blog will guide you through essential steps, including dependency management, documentation, logging, and Dockerizing your application. This guide provides a practical roadmap to getting started with Python projects.
+```zsh
+    pyenv install <python-version>
+    poetry env use <python-binary>
+    poetry new --src <project-name>
+    poetry install
+```
 
 ## Dependency Management
+---
+
+```zsh title="Add dependency"
+poetry add <dependency-name>
+```
 
 ```zsh title="Check oudated top packages"
 poetry show -T  -o -a  
 ```
 
-## 2. Logging
+```toml title="Example pyproject.toml"
+[tool.poetry]
+name = ""
+version = "0.1.0"
+description = ""
+authors = ["giraycoskun <giraycoskun.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://www.giraycoskun.dev/"
+repository = "https://github.com/giraycoskun/giraycoskun.dev"
+documentation = "https://www.giraycoskun.dev/"
+keywords = ["python", "mkdocs", "website"]
+packages = []
 
+[tool.poetry.dependencies]
+python = "3.12"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+
+[tool.poetry.group.test.dependencies]
+pytest=""
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+pylint = "^3.0.2"
+
+[tool.poe.tasks]
+serve = "mkdocs serve"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+```
+
+## Logging
 ---
 
 [loguru.logger — loguru  documentation](https://loguru.readthedocs.io/en/stable/api/logger.html)
 
-## 3. Documentation
-
+## Documentation
 ---
-
-### 3.a MkDocs
 
 - Automated Code Reference via **mkdocstrings**
 
-### 3.b Sphinx
 
-## 4. Notes
-
+## Format & Linter
 ---
 
 [styleguide](https://google.github.io/styleguide/pyguide.html)
 
-## 5. Dockerize the Application
+## Dockerize the Application
+---
 
+## Notes
 ---
