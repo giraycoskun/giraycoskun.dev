@@ -10,7 +10,7 @@ This is my notebook/blog.
 These are thing that I want take notes about and keep them here for accessibility
 
 !!! warning
-    Views are my own and can be wrong. As I am not arguing that I am an expert on these topics. Just a hard-working and curious engineer.
+    Views are my own and can be wrong. As I am not arguing that I am an expert on these topics. Just a curious engineer.
 
 
 ## Table of Contents
