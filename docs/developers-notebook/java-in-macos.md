@@ -9,7 +9,11 @@ How to set up Java in macOS with multiple Java versions
 Created: 11.10.2023
 Last Updated: 11.10.2023
 
-## Install [HomeBrew](https://brew.sh/)
+## Installation
+
+- [HomeBrew](https://brew.sh/)
+- [VisualVM](https://visualvm.github.io/)
+- 
 
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
