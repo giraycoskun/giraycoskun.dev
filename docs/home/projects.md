@@ -1,6 +1,18 @@
-# Projects
+# **Projects**
 
-## Personal Projects
+## **Research Projects**
+
+### Answer Set Programming in Kidney Exchange PRoblem
+
+### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+
+### A Combinatorial Interaction Testing-Based Daily Build Process
+
+### Unsupervised SSVEP Signal Classification
+
+### KANADE RUSSELL’S Identity Finder
+
+## **Personal Projects**
 
 ### automated-reasoning
 - **Github:** <https://github.com/giraycoskun/automated-reasoning>
@@ -42,7 +54,7 @@
 
 ---
 
-## School Projects
+## **Course Projects**
 
 ### Encryption in Assembly
 - **Github:** <https://github.com/giraycoskun/encrption-in-assembly>
@@ -55,17 +67,3 @@
 ### yumyum-social-network
 - **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
 - **Keywords:** PhP, MySQL, Database, CS306
-
----
-
-## Research Projects
-
-### Answer Set Programming in Kidney Exchange PRoblem
-
-### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
-
-### A Combinatorial Interaction Testing-Based Daily Build Process
-
-### Unsupervised SSVEP Signal Classification
-
-### KANADE RUSSELL’S Identity Finder

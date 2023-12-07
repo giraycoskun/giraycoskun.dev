@@ -21,15 +21,19 @@
 - My website: <https://giraycoskun.dev>
 - My Github Projects: <https://giraycoskun.github.io/>
 
-## My Socials
+## Contact & Follow
 
 [![gmail](../assets/icons/gmail-2.png){ width="70px", align="center" }](mailto:giraycoskun.dev@gmail.com)
 [![linkedin](../assets/icons/linkedin.png){ width="60px", align="center" }](https://www.linkedin.com/in/giraycoskun/)
+
+
 [![twitter](../assets/icons/twitter.png){ width="60px", align="center" }](https://twitter.com/coskun_giray)
 [![facebook](../assets/icons/facebook.png){ width="60px", align="center" }](https://www.facebook.com/giray.coskun1)
 [![instagram](../assets/icons/instagram.png){ width="60px", align="center" }](https://www.instagram.com/giray_coskun/)
-[![spotify](../assets/icons/spotify.png){ width="60px", align="center" }](https://open.spotify.com/user/11151152114?si=_VZRftzkSj6_LeGUbOmQMQ)
 
+
+[![spotify](../assets/icons/spotify.png){ width="60px", align="center" }](https://open.spotify.com/user/11151152114?si=_VZRftzkSj6_LeGUbOmQMQ)
+[![youtube](../assets/icons/youtube.png){ width="60px", align="center" }](https://www.youtube.com/@GirayCoskunDev)
 ---
 
 ## My Skills
@@ -42,6 +46,18 @@
 
 
 ## Projects
+
+### Research Projects
+
+- Answer Set Programming in Kidney Exchange PRoblem
+
+- Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+
+- A Combinatorial Interaction Testing-Based Daily Build Process
+
+- Unsupervised SSVEP Signal Classification
+
+- KANADE RUSSELL’S Identity Finder
 
 ### Personal Projects
 
@@ -57,18 +73,6 @@
 - Encryption in Assembly
 - Client-Server-Drive-App
 - yumyum-social-network
-
-### Research Projects
-
-- Answer Set Programming in Kidney Exchange PRoblem
-
-- Using Unified Combinatorial Interaction Testing for MC/DC Coverage
-
-- A Combinatorial Interaction Testing-Based Daily Build Process
-
-- Unsupervised SSVEP Signal Classification
-
-- KANADE RUSSELL’S Identity Finder
 
 ---
 

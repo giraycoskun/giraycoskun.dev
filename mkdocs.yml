@@ -94,8 +94,8 @@ nav:
   - My Projects: 
     - projects/index.md
     - Research Projects: projects/research-projects.md
-    - Coursework Projects: projects/course-projects.md
-    - Side Projects: projects/side-projects.md
+    - Cours Projects: projects/course-projects.md
+    - Personal Side Projects: projects/side-projects.md
   - Developer's Notebook:
     - developers-notebook/index.md
     - developers-notebook/my-python-development-environment.md

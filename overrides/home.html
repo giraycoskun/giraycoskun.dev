@@ -3,7 +3,8 @@
 {% endblock %} {% block tabs %} {{ super() }}
 <style>
   .main {
-    margin-top: 50px;
+    margin: 10px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -32,54 +33,20 @@
       display: none;
     }
   }
-
-  .typewriter h1 {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: 0.15em solid orange;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0.15em;
-    /* Adjust as needed */
-    animation: typing 2s steps(40, end), blink-caret 0.7s step-end infinite;
-  }
-
-  /* The typing effect */
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-
-    to {
-      width: 100%;
-    }
-  }
-
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-
-    50% {
-      border-color: blue;
-    }
-  }
 </style>
 <section class="mdx-container">
   <div class="md-grid md-typeset">
     <div class="mdx-hero">
       <div class="main">
-        <div class="typewriter" id="myTypewriter">
+        <!-- <div class="typewriter" id="myTypewriter">
           <h1>I'm Giray Coskun</h1>
-        </div>
+        </div> -->
+        <h2 href="" class="typewrite" data-period="2000" data-type='[ "Hello World", "I am Giray Coskun", "I am a Computer Scientist", "I am a Software Engineer", "Follow the white rabbit" ]'>
+          <span class="wrap"></span>
+        </h2>
       </div>
       <div class="mdx-hero__content main">
-        <div style="padding: 20px; border-radius: 5px">
+        <div style="padding: 1px; border-radius: 5px">
           <p style="text-align: left">
             Hello World!
             <br />
@@ -135,39 +102,62 @@
   </div>
 </section>
 <script>
-  var messages = [
-    "I'm a Software Engineer ",
-    "I'm a Backend Developer ",
-    "Follow the white rabbit ",
-  ];
-  var rank = 0;
+  var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+};
 
-  // Code for Chrome, Safari and Opera
-  document
-    .getElementById("myTypewriter")
-    .addEventListener("webkitAnimationEnd", changeTxt);
+TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
 
-  // Standard syntax
-  document
-    .getElementById("myTypewriter")
-    .addEventListener("animationend", changeTxt);
+    if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
 
-  function changeTxt(e) {
-    const text = "I'm ";
-    _h1 = this.getElementsByTagName("h1")[0];
-    _h1.style.webkitAnimation = "none"; // set element animation to none
-    setTimeout(function () {
-      // you surely want a delay before the next message appears
-      console.log(_h1);
-      _h1.innerHTML = messages[rank];
-      var speed = (2 * messages[rank].length) / 15; // adjust the speed (3.5 is the original speed, 20 is the original string length
-      _h1.style.webkitAnimation =
-        "typing " +
-        speed +
-        "s steps(40, end), blink-caret .75s step-end infinite"; //  switch to the original set of animation
-      rank === messages.length - 1 ? (rank = 0) : rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
-    }, 1500);
-  }
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+    }
+
+    setTimeout(function() {
+    that.tick();
+    }, delta);
+};
+
+window.onload = function() {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
+    document.body.appendChild(css);
+};
 </script>
 {% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock
 %} {% block scripts %}
