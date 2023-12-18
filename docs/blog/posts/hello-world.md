@@ -1,16 +1,13 @@
 ---
-draft: true 
-date: 2023-12-06 
-categories:
-  - Hello
+draft: false 
+date: 2023-12-06
 authors:
   - giraycoskun
-tags:
-  - Python
-  - Bar
 readtime: 1
 hide:
   - tags
 ---
 
 # Hello World
+
+Initial post!

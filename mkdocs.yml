@@ -53,7 +53,10 @@ extra:
 plugins:
     - search
     - macros
-    - blog
+    - blog:
+        blog_toc: true
+        pagination: true
+        pagination_per_page: 5
     - tags:
         tags_file: ./blog/tags.md
 

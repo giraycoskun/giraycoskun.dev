@@ -1,7 +1,7 @@
 ---
 date: 2023-12-11 
 categories:
-  - Obstacle
+  - Debugging
 authors:
   - giraycoskun
 tags:
@@ -18,6 +18,8 @@ Everyhting started with an error as any good story does.
 zsh: ./poetry: bad interpreter: 
 /Users/giraycoskun/.local/pipx/venvs/poetry/bin/python: no such file or directory
 ```
+
+<!-- more -->
 
 I have a cron job created via
 
