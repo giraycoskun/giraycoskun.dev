@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://giraycoskun.dev/blog/archive/2023/">
       
       
-        <link rel="prev" href="../../category/obstacle/">
+        <link rel="prev" href="../../category/debugging/">
       
       
       
@@ -1023,6 +1023,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1032,6 +1043,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-data-in-a-flask-app-accross-gunicorn-workers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing data in a Flask App accross Gunicorn Workers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broken-python-with-poetry-pipx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broken Python with Poetry &amp; pipX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hello World
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1096,11 +1153,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/obstacle/" class="md-nav__link">
+      <a href="../../category/debugging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Obstacle
+    Debugging
   </span>
   
 
@@ -1145,6 +1202,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-data-in-a-flask-app-accross-gunicorn-workers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing data in a Flask App accross Gunicorn Workers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broken-python-with-poetry-pipx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broken Python with Poetry &amp; pipX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hello World
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1172,12 +1264,60 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2023-12-18 00:00:00">December 18, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/debugging/" class="md-meta__link">Debugging</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="sharing-data-in-a-flask-app-accross-gunicorn-workers"><a class="toclink" href="../../2023/12/18/sharing-data-in-a-flask-app-accross-gunicorn-workers/">Sharing data in a Flask App accross Gunicorn Workers</a></h2>
+<p>I have a flask app, I wanted to deploy it to so I configured NGinx proxy and I was already using Cloudflare. Thus the app started running behind 2 proxy servers. Until this point I was not using flask sessions to keep data so everyhting was running fine. You could ask how flask sessions was a problem. Well the feature is not the problem but my naive setting the SECRET_KEY was.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">secrets</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">secrets</span><span class="o">.</span><span class="n">token_hex</span><span class="p">(</span><span class="mi">32</span><span class="p">)</span>
+</span></code></pre></div>
+
+    <nav class="md-post__action">
+      <a href="../../2023/12/18/sharing-data-in-a-flask-app-accross-gunicorn-workers/">
+        Continue reading
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/37620872?v=4" alt="Giray Coskun">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2023-12-11 00:00:00">December 11, 2023</time></li>
         
           <li class="md-meta__item">
             in
             
-              <a href="../../category/obstacle/" class="md-meta__link">Obstacle</a></li>
+              <a href="../../category/debugging/" class="md-meta__link">Debugging</a></li>
         
         
           
@@ -1197,28 +1337,48 @@
 <div class="language-zsh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>zsh:<span class="w"> </span>./poetry:<span class="w"> </span>bad<span class="w"> </span>interpreter:<span class="w"> </span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>/Users/giraycoskun/.local/pipx/venvs/poetry/bin/python:<span class="w"> </span>no<span class="w"> </span>such<span class="w"> </span>file<span class="w"> </span>or<span class="w"> </span>directory
 </span></code></pre></div></p>
-<p>I have a cron job created via</p>
-<div class="language-zsh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>crontab<span class="w"> </span>-l
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>crontab<span class="w"> </span>-e
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="m">0</span><span class="w"> </span><span class="m">8</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>/opt/homebrew/bin/brew<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>/opt/homebrew/bin/brew<span class="w"> </span>upgrade
-</span></code></pre></div>
-<p>Well recently this updated python 3.12.0 to 3.12.1 and poetry broke. Reason is below</p>
-<div class="language-zsh highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nb">pwd</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>/Users/giraycoskun/.local/pipx/venvs/poetry/bin
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>ls<span class="w"> </span>-la
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>lrwxr-xr-x<span class="w">   </span><span class="m">1</span><span class="w"> </span>giraycoskun<span class="w">  </span>staff<span class="w">    </span><span class="m">10</span><span class="w"> </span>Nov<span class="w"> </span><span class="m">14</span><span class="w"> </span><span class="m">22</span>:13<span class="w"> </span>python<span class="w"> </span>-&gt;<span class="w"> </span>python3.12
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>lrwxr-xr-x<span class="w">   </span><span class="m">1</span><span class="w"> </span>giraycoskun<span class="w">  </span>staff<span class="w">    </span><span class="m">10</span><span class="w"> </span>Nov<span class="w"> </span><span class="m">14</span><span class="w"> </span><span class="m">22</span>:13<span class="w"> </span>python3<span class="w"> </span>-&gt;<span class="w"> </span>python3.12
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>lrwxr-xr-x<span class="w">   </span><span class="m">1</span><span class="w"> </span>giraycoskun<span class="w">  </span>staff<span class="w">    </span><span class="m">96</span><span class="w"> </span>Dec<span class="w"> </span><span class="m">11</span><span class="w"> </span><span class="m">20</span>:50<span class="w"> </span>python3.12<span class="w"> </span>-&gt;<span class="w"> </span>/opt/homebrew/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/bin/python3.12
-</span></code></pre></div>
-<p>Symlinks are pointing to brew install python3.12.0 however it is updated so this version is cleaned with the brew default option.</p>
-<h3 id="solution"><a class="toclink" href="../../2023/12/11/broken-python-with-poetry--pipx/#solution">Solution</a></h3>
-<p>The lesson here is that python versions for well any tool should be stable so I set them to a python installed with pyenv.</p>
-<div class="language-zsh highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>pyenv<span class="w"> </span>install<span class="w"> </span>python3.12
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>unlink<span class="w"> </span>python3.12
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>ln<span class="w"> </span>-s<span class="w"> </span>/Users/giraycoskun/.pyenv/versions/3.12.0/bin/python3.12<span class="w"> </span>python3.12
-</span></code></pre></div>
+
     <nav class="md-post__action">
       <a href="../../2023/12/11/broken-python-with-poetry--pipx/">
+        Continue reading
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/37620872?v=4" alt="Giray Coskun">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-06 00:00:00">December 6, 2023</time></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="hello-world"><a class="toclink" href="../../2023/12/06/hello-world/">Hello World</a></h2>
+<p>Initial post!</p>
+    <nav class="md-post__action">
+      <a href="../../2023/12/06/hello-world/">
         Continue reading
       </a>
     </nav>
