@@ -52,9 +52,6 @@ pipx runpip poetry uninstall <poetry-plugin>
 
 ### Add VSCode Extensions
 
-!!! warning
-    Not all extensions are for python development.
-
 ```zsh
 code --list-extensions
 code --list-extensions | xargs -L 1 echo code --install-extension

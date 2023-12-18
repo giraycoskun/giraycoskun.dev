@@ -1,4 +1,4 @@
-# May the Force be with your Software and You
+# May the Force be with your software
 
 I am Giray Coskun. A software engineer graduated from Sabanci University, Computer Science and Engineering.
 

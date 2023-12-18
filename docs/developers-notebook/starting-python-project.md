@@ -6,7 +6,7 @@
 ---
 
 
-This how I start my projects so note to myself. IT includes topics on dependency management, linting/formatting, logging, documentation, dockerization
+This how I start my projects so note to myself. It includes/will include topics on dependency management, linting/formatting, logging, documentation, dockerizationç
 
 ## Required Tools
 ---
@@ -89,6 +89,9 @@ build-backend = "poetry.core.masonry.api"
 [styleguide](https://google.github.io/styleguide/pyguide.html)
 
 ## Dockerize the Application
+---
+
+## Packaging
 ---
 
 ## Notes
