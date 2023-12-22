@@ -1,6 +1,10 @@
-{% extends "base.html" %} {% block htmltitle %}
+{% extends "base.html" %} 
+{% block htmltitle %}
 <title>giraycoskun</title>
-{% endblock %} {% block tabs %} {{ super() }}
+{% endblock %} 
+
+{% block styles %}
+{{ super() }}
 <style>
   .main {
     margin: 10px;
@@ -8,6 +12,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 5px;
   }
 
   .md-header {
@@ -34,6 +39,11 @@
     }
   }
 </style>
+{% endblock %}
+
+{% block tabs %} {{ super() }} {% endblock %}
+
+{% block hero %}
 <section class="mdx-container">
   <div class="md-grid md-typeset">
     <div class="mdx-hero">
@@ -104,6 +114,16 @@
     </div>
   </div>
 </section>
+{% endblock %}
+{% block container %} {% endblock %}
+{% block site_nav %} {% endblock %}
+
+
+{% block footer %}
+{{ super() }}
+{% endblock%} 
+
+{% block scripts %}
 <script>
   var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -162,8 +182,6 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 </script>
-{% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock
-%} {% block scripts %}
 <!-- Add scripts that need to run before here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 {{ super() }}
