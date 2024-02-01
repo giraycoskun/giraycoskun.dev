@@ -1,25 +1,33 @@
 # Giray Coskun
 
+---
+
 ## About Me 👨‍💻 🤖
 
-- **Graduated from** Sabancı University, Computer Science & Engineering
-  - Minor in Math
-  - Double Major in Economics
+- Currently studies **Informatik** (Computer Science) MSc. at **Technical University of Munich**
+
+
+- Graduated from **Sabancı University** , **Computer Science & Engineering** BSc.
+    - Minor in Math
+    - Double Major in **Economics**, BA
 
 - Interested in
     - **Software Engineering**
-        - Backend Development
-        - Distributed Algorithms
-        - DevOps Engineering
+        - Backend Development (Python, Java)
+        - Distributed Systems
+        - Cloud Architecture
     - **Artificial Intelligence**
         - Combinatorial Problems
         - Logical Reasoning
         - Constraint Satisfaction
+        - Game Theory
 
 - I love Scuba Diving & Trekking
 
-- My website: <https://giraycoskun.dev>
+- My Personal website: <https://giraycoskun.com>
 - My Github Projects: <https://giraycoskun.github.io/>
+
+---
 
 ## Contact & Follow
 
@@ -34,48 +42,3 @@
 
 [![spotify](../assets/icons/spotify.png){ width="60px", align="center" }](https://open.spotify.com/user/11151152114?si=_VZRftzkSj6_LeGUbOmQMQ)
 [![youtube](../assets/icons/youtube.png){ width="60px", align="center" }](https://www.youtube.com/@GirayCoskunDev)
----
-
-## My Skills
-
-![My Skills](https://skillicons.dev/icons?i=python,java,cpp)
-
-![My Skills](https://skillicons.dev/icons?i=flask,fastapi,spring)
-
-![My Skills](https://skillicons.dev/icons?i=git,docker,aws,linux)
-
-
-## Projects
-
-### Research Projects
-
-- Answer Set Programming in Kidney Exchange PRoblem
-
-- Using Unified Combinatorial Interaction Testing for MC/DC Coverage
-
-- A Combinatorial Interaction Testing-Based Daily Build Process
-
-- Unsupervised SSVEP Signal Classification
-
-- KANADE RUSSELL’S Identity Finder
-
-### Personal Projects
-
-- automated-reasoning
-- transporter
-- tvtime-scrapy-api
-- f1-dashboard
-- music-library
-- University Anouncement System
-
-### School Projects
-
-- Encryption in Assembly
-- Client-Server-Drive-App
-- yumyum-social-network
-
----
-
-![My Github](https://github-readme-streak-stats.herokuapp.com/?user=giraycoskun&theme=dark)
-
----

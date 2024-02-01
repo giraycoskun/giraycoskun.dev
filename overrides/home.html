@@ -1,6 +1,6 @@
 {% extends "base.html" %} 
 {% block htmltitle %}
-<title>giraycoskun</title>
+<title>giraycoskun.dev</title>
 {% endblock %} 
 
 {% block styles %}
@@ -63,16 +63,17 @@
             I am a Software Engineer/Computer Scientist <br>
             graduated from Computer Science &
             Engineering, <a href="https://www.sabanciuniv.edu/">Sabancı University</a><br />
-            This is my personal website for projects, notes and blogs.
+            This is my website as a developper for projects, notes and blogs.
           </p>
           <p style="text-align: center">
             <a href="/home"><b>About Me</b></a> <br/>
             <a href="/home/cv"><b>CV</b></a> <br/>
             <a href="/projects"><b>My Projects</b></a> <br>
-            <a href="/blog"><b>My Blog</b></a> <br>
             <a href="/developers-notebook"><b>My Notebook</b></a>
+            <a href="/blog"><b>My Blog</b></a> <br>
             <br/><br>
             <a href="https://giraycoskun.github.io/">My Github Projects</a> <br>
+            <a href="https://giraycoskun.com/">My Personal Website</a> <br>
             <a href="https://www.notion.so/giraycoskun/51797f0e94b94da7998bb659ecb5cae9?v=a5832cf5567841a7aa37ed8790b66c01&pvs=4">My Library</a>
           </p>
         </div>
@@ -148,7 +149,7 @@ TxtType.prototype.tick = function() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 100 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 

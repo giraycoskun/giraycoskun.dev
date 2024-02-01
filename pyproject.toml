@@ -2,7 +2,7 @@
 name = "giraycoskun-dev"
 version = "0.1.0"
 description = "Website: giraycoskun.dev"
-authors = ["giraycoskun <giraycoskun@sabanciuniv.edu>"]
+authors = ["giraycoskun <giraycoskun.dev@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://www.giraycoskun.dev/"

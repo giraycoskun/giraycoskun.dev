@@ -1,4 +1,4 @@
-site_name: Giray Coskun
+site_name: giraycoskun.dev
 site_url: https://giraycoskun.dev/
 site_author: Giray Coskun
 site_description: I am a software engineer and this is my personal website
@@ -21,9 +21,12 @@ theme:
     - content.code.annotate
     - toc.follow
     - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
   icon:
     tag:
       python: fontawesome/brands/python
+  
 
   palette:
     
@@ -95,9 +98,8 @@ nav:
     - Skills: home/skills.md
     - CV: home/cv.md
   - My Projects: 
-    - projects/index.md
     - Research Projects: projects/research-projects.md
-    - Cours Projects: projects/course-projects.md
+    - Course Projects: projects/course-projects.md
     - Personal Side Projects: projects/side-projects.md
   - Developer's Notebook:
     - developers-notebook/index.md
@@ -112,3 +114,5 @@ nav:
   - My Blog:
     - blog/index.md
     - blog/tags.md
+  - Personal Website: https://giraycoskun.com/
+  - GitHub Project: https://giraycoskun.github.io/
