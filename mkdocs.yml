@@ -98,6 +98,7 @@ nav:
     - Skills: home/skills.md
     - CV: home/cv.md
   - My Projects: 
+    - projects/index.md
     - Research Projects: projects/research-projects.md
     - Course Projects: projects/course-projects.md
     - Personal Side Projects: projects/side-projects.md
