@@ -68,4 +68,6 @@
 - **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
 - **Keywords:** PhP, MySQL, Database, CS306
 
-[More Details on Projects](projects/index.md){ .md-button .md-button--primary }
+---
+
+[More Details on Projects](projects/){ .md-button .md-button--primary }
