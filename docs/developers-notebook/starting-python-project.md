@@ -37,6 +37,18 @@ poetry add <dependency-name>
 poetry show -T  -o -a  
 ```
 
+```zsh
+poetry show --latest --top-level
+
+poetry update --dry-run
+
+poetry update
+
+poetry install --sync
+
+poetry check
+```
+
 ```toml title="Example pyproject.toml"
 [tool.poetry]
 name = ""

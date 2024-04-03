@@ -1,7 +1,7 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 {% block htmltitle %}
 <title>giraycoskun.dev</title>
-{% endblock %} 
+{% endblock %}
 
 {% block styles %}
 {{ super() }}
@@ -51,7 +51,8 @@
         <!-- <div class="typewriter" id="myTypewriter">
           <h1>I'm Giray Coskun</h1>
         </div> -->
-        <h2 href="" class="typewrite" data-period="2000" data-type='[ "Hello World", "I am Giray Coskun", "I am a Computer Scientist", "I am a Software Engineer", "Follow the white rabbit" ]'>
+        <h2 href="" class="typewrite" data-period="2000"
+          data-type='[ "Hello World", "I am Giray Coskun", "I am a Computer Scientist", "I am a Software Engineer", "Follow the white rabbit" ]'>
           <span class="wrap"></span>
         </h2>
       </div>
@@ -61,20 +62,24 @@
             Hello World!
             <br />
             I am a Software Engineer/Computer Scientist <br>
-            graduated from Computer Science &
-            Engineering, <a href="https://www.sabanciuniv.edu/">Sabancı University</a><br />
+            graduated from <a href="https://ects.sabanciuniv.edu/en/undergraduate/computer-science-and-engineering">BSc.
+              Computer Science & Engineering, Sabancı University</a><br />
+            Studying at <a href="https://www.tum.de/studium/studienangebot/detail/informatik-master-of-science-msc">MSc.
+              Informatics, Technical University of Munich</a> <br>
             This is my website as a developper for projects, notes and blogs.
           </p>
           <p style="text-align: center">
-            <a href="/home"><b>About Me</b></a> <br/>
-            <a href="/home/cv"><b>CV</b></a> <br/>
+            <a href="/home"><b>About Me</b></a> <br />
+            <a href="/home/cv"><b>CV</b></a> <br />
             <a href="/projects"><b>My Projects</b></a> <br>
-            <a href="/developers-notebook"><b>My Notebook</b></a>
+            <a href="/developers-notebook"><b>My Notebook</b></a> <br>
             <a href="/blog"><b>My Blog</b></a> <br>
-            <br/><br>
+            <br /><br>
             <a href="https://giraycoskun.github.io/">My Github Projects</a> <br>
             <a href="https://www.giraycoskun.com/">My Personal Website</a> <br>
-            <a href="https://www.notion.so/giraycoskun/51797f0e94b94da7998bb659ecb5cae9?v=a5832cf5567841a7aa37ed8790b66c01&pvs=4">My Library</a>
+            <a
+              href="https://www.notion.so/giraycoskun/51797f0e94b94da7998bb659ecb5cae9?v=a5832cf5567841a7aa37ed8790b66c01&pvs=4">My
+              Library</a> <br><br>
           </p>
         </div>
         <!-- <p style="border: solid; padding: 20px; border-radius: 5px">
@@ -105,12 +110,14 @@
       <div class="mdx-hero__content main">
         <img src="../assets/icons/diver.png" width="180" />
         <img src="../assets/icons/galata-tower.png" width="180" />
-      </div>
+      </div> <br> <br>
       <div class="mdx-hero__content main">
-        <picture> 
-          <source type="image/webp" srcset="../assets/images/sabanci_720x540.webp" sizes="(min-width: 780px) 720px, 95.65vw" alt="Me at Sabanci University">
-          <img srcset="../assets/images/sabanci_720x540.jpg" src="../assets/images/sabanci_720x540.jpg" sizes="(min-width: 780px) 720px, 95.65vw" alt="Me at Sabanci University" />
-      </picture>
+        <picture>
+          <source type="image/webp" srcset="../assets/images/sabanci_720x540.webp"
+            sizes="(min-width: 780px) 720px, 95.65vw" alt="Me at Sabanci University">
+          <img srcset="../assets/images/sabanci_720x540.jpg" src="../assets/images/sabanci_720x540.jpg"
+            sizes="(min-width: 780px) 720px, 95.65vw" alt="Me at Sabanci University" />
+        </picture>
       </div>
     </div>
   </div>
@@ -122,11 +129,11 @@
 
 {% block footer %}
 {{ super() }}
-{% endblock%} 
+{% endblock%}
 
 {% block scripts %}
 <script>
-  var TxtType = function(el, toRotate, period) {
+  var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -134,19 +141,19 @@
     this.txt = '';
     this.tick();
     this.isDeleting = false;
-};
+  };
 
-TxtType.prototype.tick = function() {
+  TxtType.prototype.tick = function () {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
     var delta = 100 - Math.random() * 100;
@@ -154,34 +161,34 @@ TxtType.prototype.tick = function() {
     if (this.isDeleting) { delta /= 2; }
 
     if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
+      delta = this.period;
+      this.isDeleting = true;
     } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
     }
 
-    setTimeout(function() {
-    that.tick();
+    setTimeout(function () {
+      that.tick();
     }, delta);
-};
+  };
 
-window.onload = function() {
+  window.onload = function () {
     var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
+    for (var i = 0; i < elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
     }
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
     document.body.appendChild(css);
-};
+  };
 </script>
 <!-- Add scripts that need to run before here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
