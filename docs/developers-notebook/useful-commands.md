@@ -11,3 +11,14 @@ magick mogrify -monitor -format jpg *.HEIC
 ```
 
 ## Git
+
+
+## FFMPEG
+
+```zsh
+ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i index.m3u8 -c copy -bsf:a aac_adtstoasc index.mp4
+```
+
+```zsh
+for i in *.mkv; do ffmpeg -i "$i" -c:a copy "${i%.*}.mp4"; done
+```
