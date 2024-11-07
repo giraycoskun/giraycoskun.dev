@@ -12,14 +12,14 @@
     - Double Major in **Economics**, BA
 
 - Interested in
-    - **Software Engineering**
+    - As a Software Engineer
         - Backend Development (Python, Java)
         - Distributed Systems
         - Cloud Architecture
-    - **Artificial Intelligence**
+    - As a Computer Science and Economics graduate
         - Combinatorial Problems
         - Logical Reasoning
-        - Constraint Satisfaction
+        - Linear Programming
         - Game Theory
 
 - I love Scuba Diving & Trekking
