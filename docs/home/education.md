@@ -1,20 +1,17 @@
 # Education
 
-## Sabanci University (2018 - 23)
+## [Technical University of Munich](https://www.tum.de/)
+
+- **MSc. Informatics**
+
+## [Sabanci University (2018 - 23)](https://www.sabanciuniv.edu/en)
 
 - **BSc. Computer Science and Engineering**
   - Double Major in **Economics**
   - Minor in **Mathematics**
   - Sakip Sabanci High Honor Scholarship
   - GPA: 3.78
-
-## Uppsala University (Erasmus) (2019-20 Spring)
-
-- Department of Information Technology
-
-## Technical University of Munich
-
-- **MSc. Informatics**
+  - Erasmus at **Uppsala University, Sweden**
 
 ## Coursework
 

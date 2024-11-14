@@ -94,11 +94,11 @@ nav:
       - Experience: home/experience.md
       - Skills: home/skills.md
       - CV: home/cv.md
-  - My Projects:
-      - projects/index.md
-      - Research Projects: projects/research-projects.md
-      - Course Projects: projects/course-projects.md
-      - Personal Side Projects: projects/side-projects.md
+  # - My Projects:
+  #     - projects/index.md
+  #     - Research Projects: projects/research-projects.md
+  #     - Course Projects: projects/course-projects.md
+  #     - Personal Side Projects: projects/side-projects.md
   - Developer's Notebook:
       - developers-notebook/index.md
       - developers-notebook/my-python-development-environment.md
@@ -113,5 +113,5 @@ nav:
   - My Blog:
       - blog/index.md
       - blog/tags.md
-  - GitHub Project: https://giraycoskun.github.io/
+  # - GitHub Project: https://giraycoskun.github.io/
   - Personal Website: https://www.giraycoskun.com/

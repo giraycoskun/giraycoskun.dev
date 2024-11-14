@@ -1,19 +1,22 @@
-# **Projects**
+# Projects
 
-## **Research Projects**
+## Course Projects
+---
 
-### Answer Set Programming in Kidney Exchange PRoblem
+### Encryption in Assembly
+- **Github:** <https://github.com/giraycoskun/encrption-in-assembly>
+- **Keywords:** assembly, cryptographic algorithm
 
-### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+### Client-Server-Drive-App
+- **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
+- **Keywords:** socket programming, network, client-server architecture, C#, CS408
 
-### A Combinatorial Interaction Testing-Based Daily Build Process
+### yumyum-social-network
+- **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
+- **Keywords:** PhP, MySQL, Database, CS306
 
-### Unsupervised SSVEP Signal Classification
-
-### KANADE RUSSELL’S Identity Finder
-
-## **Personal Projects**
-
+## Personal Projects
+---
 ### automated-reasoning
 - **Github:** <https://github.com/giraycoskun/automated-reasoning>
 - **Docs:** -
@@ -52,22 +55,27 @@
 - **Github:** <https://github.com/giraycoskun/University-Anouncement-System>
 - **Keywords:** python, scraping 
 
+
+## Research Projects
+---
+### Answer Set Programming in Kidney Exchange Problem
+
+### Using Unified Combinatorial Interaction Testing for MC/DC Coverage
+
+- <https://ieeexplore.ieee.org/abstract/document/9787934>
+
+### A Combinatorial Interaction Testing-Based Daily Build Process
+
+- <https://www.sciencedirect.com/science/article/abs/pii/S0164121222000875>
+
+### Unsupervised SSVEP Signal Classification
+
+- <https://ieeexplore.ieee.org/abstract/document/9864700>
+
+### Kanade Russell’s Identity Finder
+
+- <https://pure.sabanciuniv.edu/sites/pure.sabanciuniv.edu/files/pure-reports/pure_final_report_26.pdf>
+
 ---
 
-## **Course Projects**
-
-### Encryption in Assembly
-- **Github:** <https://github.com/giraycoskun/encrption-in-assembly>
-- **Keywords:** assembly, cryptographic algorithm
-
-### Client-Server-Drive-App
-- **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
-- **Keywords:** socket programming, network, client-server architecture, C#, CS408
-
-### yumyum-social-network
-- **Github:** <https://github.com/giraycoskun/Client-Server-Drive-App>
-- **Keywords:** PhP, MySQL, Database, CS306
-
----
-
-[More Details on Projects](projects/){ .md-button .md-button--primary }
+**Projects on Github: <https://giraycoskun.github.io/>**

@@ -4,7 +4,7 @@
 
 ## About Me 👨‍💻 🤖
 
-- Currently studies **Informatik** (Computer Science) MSc. at **Technical University of Munich**
+- Currently studies **Informatik (Computer Science) MSc. at Technical University of Munich**
 
 
 - Graduated from **Sabancı University** , **Computer Science & Engineering** BSc.
@@ -42,3 +42,5 @@
 
 [![spotify](../assets/icons/spotify.png){ width="60px", align="center" }](https://open.spotify.com/user/11151152114?si=_VZRftzkSj6_LeGUbOmQMQ)
 [![youtube](../assets/icons/youtube.png){ width="60px", align="center" }](https://www.youtube.com/@GirayCoskunDev)
+
+---
