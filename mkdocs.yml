@@ -99,17 +99,17 @@ nav:
   #     - Research Projects: projects/research-projects.md
   #     - Course Projects: projects/course-projects.md
   #     - Personal Side Projects: projects/side-projects.md
-  - Developer's Notebook:
-      - developers-notebook/index.md
-      - developers-notebook/my-python-development-environment.md
-      - developers-notebook/starting-python-project.md
-      - developers-notebook/host-your-projects.md
-      - developers-notebook/my-bookmarks.md
-      - developers-notebook/useful-commands.md
-    # - developers-notebook/modern-cpp-development.md
-    # - developers-notebook/self-hosted.md
-    # - developers-notebook/async-python.md
-    # - developers-notebook/java-in-macos.md
+  # - Developer's Notebook:
+  #     - developers-notebook/index.md
+  #     - developers-notebook/my-python-development-environment.md
+  #     - developers-notebook/starting-python-project.md
+  #     - developers-notebook/host-your-projects.md
+  #     - developers-notebook/my-bookmarks.md
+  #     - developers-notebook/useful-commands.md
+  #   # - developers-notebook/modern-cpp-development.md
+  #   # - developers-notebook/self-hosted.md
+  #   # - developers-notebook/async-python.md
+  #   # - developers-notebook/java-in-macos.md
   - My Blog:
       - blog/index.md
       - blog/tags.md
