@@ -56,7 +56,8 @@ plugins:
   - blog:
       blog_toc: true
       pagination: true
-      pagination_per_page: 5
+      pagination_per_page: 8
+      draft: true
   - tags:
       tags_file: ./blog/tags.md
 
@@ -99,8 +100,9 @@ nav:
   #     - Research Projects: projects/research-projects.md
   #     - Course Projects: projects/course-projects.md
   #     - Personal Side Projects: projects/side-projects.md
-  # - Developer's Notebook:
-  #     - developers-notebook/index.md
+  - Developer's Notebook:
+      - developers-notebook/index.md
+      - developers-notebook/uv.md
   #     - developers-notebook/my-python-development-environment.md
   #     - developers-notebook/starting-python-project.md
   #     - developers-notebook/host-your-projects.md
