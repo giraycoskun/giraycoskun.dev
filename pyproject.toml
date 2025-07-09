@@ -1,29 +1,33 @@
-[tool.poetry]
+[project]
 name = "giraycoskun-dev"
 version = "0.1.0"
 description = "Website: giraycoskun.dev"
-authors = ["giraycoskun <giraycoskun.dev@gmail.com>"]
-license = "MIT"
+authors = [{ name = "giraycoskun", email = "giraycoskun.dev@gmail.com" }]
+requires-python = ">=3.13,<4"
 readme = "README.md"
-homepage = "https://www.giraycoskun.dev/"
-repository = "https://github.com/giraycoskun/giraycoskun.dev"
-documentation = "https://www.giraycoskun.dev/"
-keywords = ["python", "mkdocs", "website"]
-packages = []
-package-mode = false
+license = "MIT"
+keywords = [
+    "python",
+    "mkdocs",
+    "website",
+]
+dependencies = [
+    "mkdocs>=1.5.3,<2",
+    "mkdocs-material>=9.4.8,<10",
+    "pymdown-extensions~=10.4",
+    "mkdocs-material-extensions>=1.0.3,<2",
+    "mkdocs-macros-plugin>=1.0.5,<2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-mkdocs = "^1.5.3"
-mkdocs-material = "^9.4.8"
-pymdown-extensions = "^10.4"
-mkdocs-material-extensions = "^1.0.3"
-mkdocs-macros-plugin = "^1.0.5"
+[project.urls]
+Homepage = "https://www.giraycoskun.dev/"
+Repository = "https://github.com/giraycoskun/giraycoskun.dev"
+Documentation = "https://www.giraycoskun.dev/"
+
+[tool.uv]
+package = false
+
 
 [tool.poe.tasks]
 serve = "mkdocs serve"
 export = "poetry export -f requirements.txt --output requirements.txt"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
